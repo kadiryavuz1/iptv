@@ -6,6 +6,7 @@ import Footer from "./Components/Footer/Footer.jsx";
 import Listings from "./Components/Listing/listings.jsx";
 import LanguageProvider from "./Context/LanguageContext";
 import WhatsAppButton from "./Components/WhatsAppButton/WhatsAppButton";
+import { Analytics } from "@vercel/analytics/react"
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
               <Route path="" element={<Home />} />
               <Route path="/listings" element={<Listings />} />
             </Routes>
+            <Analytics />
           </main>
           <Footer />
           <WhatsAppButton />
