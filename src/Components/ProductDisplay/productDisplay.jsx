@@ -8,7 +8,7 @@ const translations = {
   tr: {
     title: "BoomCast Premium IPTV",
     description: "Yüksek kaliteli IPTV hizmeti, 10.000+ kanal, film ve dizi arşivi",
-    price: "Başlayan Fiyatlarla:",
+    
     stock: "Durum:",
     available: "Aktif",
     contact: "İletişime Geç",
@@ -17,7 +17,7 @@ const translations = {
   de: {
     title: "BoomCast Premium IPTV",
     description: "Hochwertiger IPTV-Service, 10.000+ Kanäle, Film- und Serienarchiv",
-    price: "Preise ab:",
+    
     stock: "Status:",
     available: "Aktiv",
     contact: "Kontakt",
@@ -39,13 +39,7 @@ const ProductDisplay = () => {
       </div>
       <div className="productdisplay-right">
         <h1>{content.title}</h1>
-        <div className="productdisplay-right-prices">
-          <div className="productdisplay-right-price">
-            <p>
-              {content.price} 25€
-            </p>
-          </div>
-        </div>
+        
         <div className="productdisplay-right-stock">
           <p>
             {content.stock}{" "}
