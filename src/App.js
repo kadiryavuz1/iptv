@@ -20,11 +20,12 @@ function App() {
               <Route path="" element={<Home />} />
               <Route path="/listings" element={<Listings />} />
             </Routes>
-            <Analytics />
+           
           </main>
           <Footer />
           <WhatsAppButton />
         </BrowserRouter>
+         <Analytics />
       </div>
     </LanguageProvider>
   );
