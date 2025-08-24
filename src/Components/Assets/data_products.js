@@ -25,7 +25,7 @@ const data_products = [
     },
     img: iptv_logo,
     duration: "3 Months",
-    price: 40,
+    price: 35,
     type: "premium"
   },
   {
@@ -52,7 +52,7 @@ const data_products = [
     },
     img: iptv_logo,
     duration: "6 Months",
-    price: 50,
+    price: 45,
     type: "premium"
   },
   {
@@ -106,7 +106,7 @@ const data_products = [
     },
     img: iptv_logo,
     duration: "15 Months",
-    price: 90,
+    price: 80,
     type: "premium"
   },
   {
@@ -133,7 +133,7 @@ const data_products = [
     },
     img: iptv_logo,
     duration: "24 Months",
-    price: 120,
+    price: 100,
     type: "premium"
   },
   
