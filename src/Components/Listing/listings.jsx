@@ -10,6 +10,9 @@ const translations = {
   },
   de: {
     premiumTitle: "Premium Pakete"
+  },
+  en: {
+    premiumTitle: "Premium Packages"
   }
 };
 

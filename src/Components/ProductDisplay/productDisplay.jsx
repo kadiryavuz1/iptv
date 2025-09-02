@@ -22,6 +22,15 @@ const translations = {
     available: "Aktiv",
     contact: "Kontakt",
     info: "Information"
+  },
+  en: {
+    title: "BoomCast Premium IPTV",
+    description: "High-quality IPTV service, 10,000+ channels, movie and series archive",
+    
+    stock: "Status:",
+    available: "Active",
+    contact: "Contact Us",
+    info: "Information"
   }
 };
 

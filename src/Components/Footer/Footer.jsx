@@ -16,6 +16,13 @@ const translations = {
       contact: "Kontakt",
     },
     copyright: "© 2024 BoomCast. Alle Rechte vorbehalten."
+  },
+  en: {
+    support: {
+      title: "Support",
+      contact: "Contact Us",
+    },
+    copyright: "© 2024 BoomCast. All rights reserved."
   }
 };
 

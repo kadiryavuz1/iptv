@@ -19,6 +19,14 @@ const translations = {
     buttonText: "TEST ANFORDERN",
     whatsappMessage: "Hallo, ich möchte gerne einen Test für BoomCast anfordern.",
     whatsappNumber: "447742281212"
+  },
+  en: {
+    title: "BoomCast",
+    subtitle: "Premium Entertainment at Your Fingertips",
+    description: "Experience ultimate streaming with over 10,000 live channels, exclusive sports events, latest movies and series. Crystal clear 4K quality, no buffering, seamless streaming on all your devices. Your entertainment, your control!",
+    buttonText: "GET TEST",
+    whatsappMessage: "Hello, I would like to get a test for BoomCast.",
+    whatsappNumber: "447742281212"
   }
 };
 

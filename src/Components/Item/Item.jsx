@@ -15,6 +15,13 @@ const translations = {
       normal: "Kontaktieren"
     },
     popular: "Beliebt"
+  },
+  en: {
+    contactButton: {
+      premium: "Contact Now",
+      normal: "Contact Us"
+    },
+    popular: "Popular"
   }
 };
 
@@ -22,9 +29,17 @@ const Item = ({ name, description, duration, price, type, language }) => {
   const currentLanguage = translations[language] ? language : "tr";
   const content = translations[currentLanguage];
 
-  const whatsappMessage = currentLanguage === 'tr' 
-    ? encodeURIComponent(`Merhaba, ${name[currentLanguage]} paketi hakkında bilgi almak istiyorum.`)
-    : encodeURIComponent(`Hallo, ich möchte Informationen über das ${name[currentLanguage]} Paket erhalten.`);
+  const getWhatsAppMessage = () => {
+    if (currentLanguage === 'tr') {
+      return encodeURIComponent(`Merhaba, ${name[currentLanguage]} paketi hakkında bilgi almak istiyorum.`);
+    } else if (currentLanguage === 'de') {
+      return encodeURIComponent(`Hallo, ich möchte Informationen über das ${name[currentLanguage]} Paket erhalten.`);
+    } else {
+      return encodeURIComponent(`Hello, I would like to get information about the ${name[currentLanguage]} package.`);
+    }
+  };
+
+  const whatsappMessage = getWhatsAppMessage();
   const whatsappNumber = "447742281212";
 
   return (

@@ -5,11 +5,13 @@ const data_products = [
     id: 1,
     name: {
       tr: "Premium 3 Ay",
-      de: "Premium 3 Monate"
+      de: "Premium 3 Monate",
+      en: "Premium 3 Months"
     },
     description: {
       tr: "HD/4K Yayınlar, 7/24 Destek",
-      de: "HD/4K Streams, 24/7 Support"
+      de: "HD/4K Streams, 24/7 Support",
+      en: "HD/4K Streams, 24/7 Support"
     },
     features: {
       tr: [
@@ -21,6 +23,11 @@ const data_products = [
         "HD/4K Qualität",
         "24/7 Support",
         "Mit allen Geräten kompatibel"
+      ],
+      en: [
+        "HD/4K Quality",
+        "24/7 Support",
+        "Compatible with All Devices"
       ]
     },
     img: iptv_logo,
@@ -32,11 +39,13 @@ const data_products = [
     id: 2,
     name: {
       tr: "Premium 6 Ay",
-      de: "Premium 6 Monate"
+      de: "Premium 6 Monate",
+      en: "Premium 6 Months"
     },
     description: {
       tr: "Binlerce Kanal, Akıllı TV Desteği",
-      de: "Tausende Kanäle, Smart TV Unterstützung"
+      de: "Tausende Kanäle, Smart TV Unterstützung",
+      en: "Thousands of Channels, Smart TV Support"
     },
     features: {
       tr: [
@@ -48,6 +57,11 @@ const data_products = [
         "Tausende Kanäle",
         "Smart TV Unterstützung",
         "Premium Qualität"
+      ],
+      en: [
+        "Thousands of Channels",
+        "Smart TV Support",
+        "Premium Quality"
       ]
     },
     img: iptv_logo,
@@ -59,11 +73,13 @@ const data_products = [
     id: 3,
     name: {
       tr: "Premium 12 Ay",
-      de: "Premium 12 Monate"
+      de: "Premium 12 Monate",
+      en: "Premium 12 Months"
     },
     description: {
       tr: "Full HD IPTV, Film + Dizi Arşivi",
-      de: "Full HD IPTV, Film + Serien Archiv"
+      de: "Full HD IPTV, Film + Serien Archiv",
+      en: "Full HD IPTV, Movie + Series Archive"
     },
     features: {
       tr: [
@@ -74,6 +90,11 @@ const data_products = [
       de: [
         "Full HD IPTV",
         "Film + Serien Archiv",
+        "Premium Support"
+      ],
+      en: [
+        "Full HD IPTV",
+        "Movie + Series Archive",
         "Premium Support"
       ]
     },
@@ -86,11 +107,13 @@ const data_products = [
     id: 4,
     name: {
       tr: "Premium 15 Ay",
-      de: "Premium 15 Monate"
+      de: "Premium 15 Monate",
+      en: "Premium 15 Months"
     },
     description: {
       tr: "Yüksek Kalite, VIP Destek",
-      de: "Hohe Qualität, VIP Support"
+      de: "Hohe Qualität, VIP Support",
+      en: "High Quality, VIP Support"
     },
     features: {
       tr: [
@@ -102,6 +125,11 @@ const data_products = [
         "Hohe Qualität",
         "VIP Support",
         "Langfristiger Service"
+      ],
+      en: [
+        "High Quality",
+        "VIP Support",
+        "Long-term Service"
       ]
     },
     img: iptv_logo,
@@ -113,11 +141,13 @@ const data_products = [
     id: 5,
     name: {
       tr: "Premium 24 Ay",
-      de: "Premium 24 Monate"
+      de: "Premium 24 Monate",
+      en: "Premium 24 Months"
     },
     description: {
       tr: "2 Yıl Hizmet, Kesintisiz Yayın",
-      de: "2 Jahre Service, Unterbrechungsfreies Streaming"
+      de: "2 Jahre Service, Unterbrechungsfreies Streaming",
+      en: "2 Years Service, Uninterrupted Streaming"
     },
     features: {
       tr: [
@@ -129,6 +159,11 @@ const data_products = [
         "2 Jahre Service",
         "Unterbrechungsfreies Streaming",
         "Voller Support"
+      ],
+      en: [
+        "2 Years Service",
+        "Uninterrupted Streaming",
+        "Full Support"
       ]
     },
     img: iptv_logo,

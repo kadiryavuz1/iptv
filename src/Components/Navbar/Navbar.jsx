@@ -12,11 +12,15 @@ const translations = {
   de: {
     home: "Startseite",
     packages: "Pakete"
+  },
+  en: {
+    home: "Home",
+    packages: "Packages"
   }
 };
 
 const Navbar = () => {
-  const { language, toggleLanguage } = useContext(LanguageContext);
+  const { language, setLanguage } = useContext(LanguageContext);
   // Güvenlik kontrolü - varsayılan olarak Türkçe
   const currentLanguage = translations[language] ? language : "tr";
   const content = translations[currentLanguage];
@@ -36,12 +40,26 @@ const Navbar = () => {
       </div>
 
       <div className="nav-actions">
-        <button 
-          className="language-toggle" 
-          onClick={toggleLanguage}
-        >
-          {currentLanguage === 'tr' ? 'DE' : 'TR'}
-        </button>
+        <div className="language-buttons">
+          <button 
+            className={`language-btn ${currentLanguage === 'tr' ? 'active' : ''}`}
+            onClick={() => setLanguage('tr')}
+          >
+            TR
+          </button>
+          <button 
+            className={`language-btn ${currentLanguage === 'de' ? 'active' : ''}`}
+            onClick={() => setLanguage('de')}
+          >
+            DE
+          </button>
+          <button 
+            className={`language-btn ${currentLanguage === 'en' ? 'active' : ''}`}
+            onClick={() => setLanguage('en')}
+          >
+            EN
+          </button>
+        </div>
       </div>
     </nav>
   );
