@@ -25,7 +25,7 @@ const translations = {
   }
 };
 
-const Item = ({ name, description, duration, price, type, language }) => {
+const Item = ({ name, features, duration, price, type, language }) => {
   const currentLanguage = translations[language] ? language : "tr";
   const content = translations[currentLanguage];
 
@@ -49,7 +49,14 @@ const Item = ({ name, description, duration, price, type, language }) => {
     >
       <h3>{name[currentLanguage]}</h3>
       <p className="price">{price}</p>
-      <p className="desc">{description[currentLanguage]}</p>
+      <ul className="features-list">
+        {(Array.isArray(features[currentLanguage]) ? features[currentLanguage] : [features[currentLanguage]]).map((feature, index) => (
+          <li key={index} className="feature-item">
+            <span className="feature-icon">✓</span>
+            <span className="feature-text">{feature}</span>
+          </li>
+        ))}
+      </ul>
       <a
         href={`https://api.whatsapp.com/send?phone=${whatsappNumber}&text=${whatsappMessage}`}
         target="_blank"

@@ -15,24 +15,39 @@ const data_products = [
     },
     features: {
       tr: [
-        "HD/4K Kalite",
+        "4K, FHD, HD & SD",
+        "+ 30.000 Canlı TV Kanalı",
+        "Filmler & Diziler (VOD)",
+        "NBA, NHL, NFL, MLB,UFC, ESP+",
+        "PPV Desteği",
+       
         "7/24 Destek",
         "Tüm Cihazlarla Uyumlu"
       ],
       de: [
-        "HD/4K Qualität",
+        "4K, FHD, HD & SD",
+        "+ 30.000 Live-TV-Kanäle",
+        "Filme & Serien (VOD)",
+        "NBA, NHL, NFL, MLB,UFC, ESP+",
+        "PPV-Unterstützung",
+        "Kompatibel mit allen Geräten",
         "24/7 Support",
-        "Mit allen Geräten kompatibel"
+        
       ],
       en: [
-        "HD/4K Quality",
+        "4K, FHD, HD & SD",
+        "+ 30,000 Live TV Channels",
+        "Movies & Series (VOD)",
+        "NBA, NHL, NFL, MLB, ESP+",
+        "PPV Support",
+        
         "24/7 Support",
         "Compatible with All Devices"
       ]
     },
     img: iptv_logo,
     duration: "3 Months",
-    price: 40,
+    price: 34.99,
     type: "premium"
   },
   {
@@ -49,24 +64,39 @@ const data_products = [
     },
     features: {
       tr: [
-        "Binlerce Kanal",
-        "Akıllı TV Desteği",
-        "Premium Kalite"
+        "4K, FHD, HD & SD",
+        "+ 30.000 Canlı TV Kanalı",
+        "Filmler & Diziler (VOD)",
+        "NBA, NHL, NFL, MLB,UFC, ESP+",
+        "PPV Desteği",
+       
+        "7/24 Destek",
+        "Tüm Cihazlarla Uyumlu"
       ],
       de: [
-        "Tausende Kanäle",
-        "Smart TV Unterstützung",
-        "Premium Qualität"
+        "4K, FHD, HD & SD",
+        "+ 30.000 Live-TV-Kanäle",
+        "Filme & Serien (VOD)",
+        "NBA, NHL, NFL, MLB,UFC, ESP+",
+        "PPV-Unterstützung",
+        
+        "24/7 Support",
+        "Mit allen Geräten kompatibel"
       ],
       en: [
-        "Thousands of Channels",
-        "Smart TV Support",
-        "Premium Quality"
+        "4K, FHD, HD & SD",
+        "+ 30,000 Live TV Channels",
+        "Movies & Series (VOD)",
+        "NBA, NHL, NFL, MLB, ESP+",
+        "PPV Support",
+        
+        "24/7 Support",
+        "Compatible with All Devices"
       ]
     },
     img: iptv_logo,
     duration: "6 Months",
-    price: 50,
+    price: 39.99,
     type: "premium"
   },
   {
@@ -83,24 +113,39 @@ const data_products = [
     },
     features: {
       tr: [
-        "Full HD IPTV",
-        "Film + Dizi Arşivi",
-        "Premium Destek"
+        "4K, FHD, HD & SD",
+        "+ 30.000 Canlı TV Kanalı",
+        "Filmler & Diziler (VOD)",
+        "NBA, NHL, NFL, MLB,UFC, ESP+",
+        "PPV Desteği",
+        "Tüm Cihazlarla Uyumlu",
+        "7/24 Destek",
+        "Tüm Cihazlarla Uyumlu"
       ],
       de: [
-        "Full HD IPTV",
-        "Film + Serien Archiv",
-        "Premium Support"
+        "4K, FHD, HD & SD",
+        "+ 30.000 Live-TV-Kanäle",
+        "Filme & Serien (VOD)",
+        "NBA, NHL, NFL, MLB,UFC, ESP+",
+        "PPV-Unterstützung",
+        
+        "24/7 Support",
+        "Mit allen Geräten kompatibel"
       ],
       en: [
-        "Full HD IPTV",
-        "Movie + Series Archive",
-        "Premium Support"
+        "4K, FHD, HD & SD",
+        "+ 30,000 Live TV Channels",
+        "Movies & Series (VOD)",
+        "NBA, NHL, NFL, MLB, ESP+",
+        "PPV Support",
+        
+        "24/7 Support",
+        "Compatible with All Devices"
       ]
     },
     img: iptv_logo,
     duration: "12 Months",
-    price: 75,
+    price: 64.99,
     type: "premium"
   },
   {
@@ -117,24 +162,39 @@ const data_products = [
     },
     features: {
       tr: [
-        "Yüksek Kalite",
-        "VIP Destek",
-        "Uzun Süreli Hizmet"
+        "4K, FHD, HD & SD",
+        "+ 30.000 Canlı TV Kanalı",
+        "Filmler & Diziler (VOD)",
+        "NBA, NHL, NFL, MLB,UFC, ESP+",
+        "PPV Desteği",
+       
+        "7/24 Destek",
+        "Tüm Cihazlarla Uyumlu"
       ],
       de: [
-        "Hohe Qualität",
-        "VIP Support",
-        "Langfristiger Service"
+        "4K, FHD, HD & SD",
+        "+ 30.000 Live-TV-Kanäle",
+        "Filme & Serien (VOD)",
+        "NBA, NHL, NFL, MLB,UFC, ESP+",
+        "PPV-Unterstützung",
+       
+        "24/7 Support",
+        "Mit allen Geräten kompatibel"
       ],
       en: [
-        "High Quality",
-        "VIP Support",
-        "Long-term Service"
+        "4K, FHD, HD & SD",
+        "+ 30,000 Live TV Channels",
+        "Movies & Series (VOD)",
+        "NBA, NHL, NFL, MLB, ESP+",
+        "PPV Support",
+       
+        "24/7 Support",
+        "Compatible with All Devices"
       ]
     },
     img: iptv_logo,
     duration: "15 Months",
-    price: 85,
+    price: 69.99,
     type: "premium"
   },
   {
@@ -150,25 +210,40 @@ const data_products = [
       en: "2 Years Service, Uninterrupted Streaming"
     },
     features: {
-      tr: [
-        "2 Yıl Hizmet",
-        "Kesintisiz Yayın",
-        "Tam Destek"
+    tr: [
+        "4K, FHD, HD & SD",
+        "+ 30.000 Canlı TV Kanalı",
+        "Filmler & Diziler (VOD)",
+        "NBA, NHL, NFL, MLB,UFC, ESP+",
+        "PPV Desteği",
+        
+        "7/24 Destek",
+        "Tüm Cihazlarla Uyumlu"
       ],
       de: [
-        "2 Jahre Service",
-        "Unterbrechungsfreies Streaming",
-        "Voller Support"
+        "4K, FHD, HD & SD",
+        "+ 30.000 Live-TV-Kanäle",
+        "Filme & Serien (VOD)",
+        "NBA, NHL, NFL, MLB,UFC, ESP+",
+        "PPV-Unterstützung",
+        
+        "24/7 Support",
+        "Mit allen Geräten kompatibel"
       ],
       en: [
-        "2 Years Service",
-        "Uninterrupted Streaming",
-        "Full Support"
+        "4K, FHD, HD & SD",
+        "+ 30,000 Live TV Channels",
+        "Movies & Series (VOD)",
+        "NBA, NHL, NFL, MLB, ESP+",
+        "PPV Support",
+        
+        "24/7 Support",
+        "Compatible with All Devices"
       ]
     },
     img: iptv_logo,
     duration: "24 Months",
-    price: 120,
+    price: 109.99,
     type: "premium"
   },
   

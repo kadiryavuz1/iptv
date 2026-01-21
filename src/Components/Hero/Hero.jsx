@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import "./Hero.css";
-import logo from "../Assets/logo.png";
+import tvImage from "../Assets/hero.jpg";
 import { LanguageContext } from "../../Context/LanguageContext";
 
 const translations = {
@@ -53,8 +53,8 @@ const Hero = () => {
       </div>
       
       <div className="hero-right">
-        <div className="logo-container">
-          <img src={logo} alt="BoomCast Logo" />
+        <div className="tv-container">
+          <img src={tvImage} alt="BoomCast TV" className="tv-image" />
         </div>
       </div>
     </div>

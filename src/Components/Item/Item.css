@@ -1,11 +1,13 @@
 .package-card {
   background: white;
   border-radius: 10px;
-  padding: 2rem;
+  padding: 2.5rem 2.5rem;
   text-align: center;
-  width: 220px;
+  width: 340px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
 }
 
 .package-card.premium {
@@ -28,7 +30,7 @@
 .package-card .price {
   font-size: 2.2rem;
   font-weight: bold;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
   color: inherit;
 }
 
@@ -44,6 +46,52 @@
   margin-bottom: 1.5rem;
   color: inherit;
   opacity: 0.9;
+}
+
+.features-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 2rem 0;
+  text-align: left;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.feature-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.8rem;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.feature-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1.4rem;
+  height: 1.4rem;
+  border-radius: 50%;
+  font-weight: bold;
+  font-size: 0.8rem;
+  flex-shrink: 0;
+}
+
+.package-card.premium .feature-icon {
+  background-color: rgba(0, 255, 157, 0.2);
+  color: #00ff9d;
+}
+
+.package-card.normal .feature-icon {
+  background-color: rgba(44, 82, 130, 0.1);
+  color: #2c5282;
+}
+
+.feature-text {
+  color: inherit;
+  opacity: 0.95;
 }
 
 .btn-contact {
