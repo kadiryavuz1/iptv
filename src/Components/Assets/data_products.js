@@ -18,7 +18,7 @@ const data_products = [
         "4K, FHD, HD & SD",
         "+ 30.000 Canlı TV Kanalı",
         "Filmler & Diziler (VOD)",
-        "NBA, NHL, NFL, MLB,UFC, ESP+",
+        "Premierl Lig , Super Lig, NBA, ",
         "PPV Desteği",
        
         "7/24 Destek",
@@ -28,7 +28,7 @@ const data_products = [
         "4K, FHD, HD & SD",
         "+ 30.000 Live-TV-Kanäle",
         "Filme & Serien (VOD)",
-        "NBA, NHL, NFL, MLB,UFC, ESP+",
+        "Premierl Lig , Super Lig, NBA , World Cup , UEFA , Bundesliga , La Liga , Serie A ",
         "PPV-Unterstützung",
         "Kompatibel mit allen Geräten",
         "24/7 Support",
@@ -38,7 +38,7 @@ const data_products = [
         "4K, FHD, HD & SD",
         "+ 30,000 Live TV Channels",
         "Movies & Series (VOD)",
-        "NBA, NHL, NFL, MLB, ESP+",
+        "Premierl Lig , Super Lig, NBA , World Cup , UEFA , Bundesliga , La Liga , Serie A ",
         "PPV Support",
         
         "24/7 Support",
@@ -67,7 +67,7 @@ const data_products = [
         "4K, FHD, HD & SD",
         "+ 30.000 Canlı TV Kanalı",
         "Filmler & Diziler (VOD)",
-        "NBA, NHL, NFL, MLB,UFC, ESP+",
+        "Premierl Lig , Super Lig, NBA , World Cup , UEFA , Bundesliga , La Liga , Serie A",
         "PPV Desteği",
        
         "7/24 Destek",
@@ -77,7 +77,7 @@ const data_products = [
         "4K, FHD, HD & SD",
         "+ 30.000 Live-TV-Kanäle",
         "Filme & Serien (VOD)",
-        "NBA, NHL, NFL, MLB,UFC, ESP+",
+        "Premierl Lig , Super Lig, NBA , World Cup , UEFA , Bundesliga , La Liga , Serie A",
         "PPV-Unterstützung",
         
         "24/7 Support",
@@ -87,7 +87,7 @@ const data_products = [
         "4K, FHD, HD & SD",
         "+ 30,000 Live TV Channels",
         "Movies & Series (VOD)",
-        "NBA, NHL, NFL, MLB, ESP+",
+        "Premierl Lig , Super Lig, NBA , World Cup , UEFA , Bundesliga , La Liga , Serie A ",
         "PPV Support",
         
         "24/7 Support",
@@ -116,7 +116,7 @@ const data_products = [
         "4K, FHD, HD & SD",
         "+ 30.000 Canlı TV Kanalı",
         "Filmler & Diziler (VOD)",
-        "NBA, NHL, NFL, MLB,UFC, ESP+",
+        "Premierl Lig , Super Lig, NBA , World Cup , UEFA , Bundesliga , La Liga , Serie A ",
         "PPV Desteği",
         "Tüm Cihazlarla Uyumlu",
         "7/24 Destek",
@@ -126,7 +126,7 @@ const data_products = [
         "4K, FHD, HD & SD",
         "+ 30.000 Live-TV-Kanäle",
         "Filme & Serien (VOD)",
-        "NBA, NHL, NFL, MLB,UFC, ESP+",
+        "Premierl Lig , Super Lig, NBA , World Cup , UEFA , Bundesliga , La Liga , Serie A",
         "PPV-Unterstützung",
         
         "24/7 Support",
@@ -136,7 +136,7 @@ const data_products = [
         "4K, FHD, HD & SD",
         "+ 30,000 Live TV Channels",
         "Movies & Series (VOD)",
-        "NBA, NHL, NFL, MLB, ESP+",
+        "Premierl Lig , Super Lig, NBA , World Cup , UEFA , Bundesliga , La Liga , Serie A ",
         "PPV Support",
         
         "24/7 Support",
@@ -165,7 +165,7 @@ const data_products = [
         "4K, FHD, HD & SD",
         "+ 30.000 Canlı TV Kanalı",
         "Filmler & Diziler (VOD)",
-        "NBA, NHL, NFL, MLB,UFC, ESP+",
+        "Premierl Lig , Super Lig, NBA , World Cup , UEFA , Bundesliga , La Liga , Serie A ",
         "PPV Desteği",
        
         "7/24 Destek",
@@ -175,7 +175,7 @@ const data_products = [
         "4K, FHD, HD & SD",
         "+ 30.000 Live-TV-Kanäle",
         "Filme & Serien (VOD)",
-        "NBA, NHL, NFL, MLB,UFC, ESP+",
+        "Premierl Lig , Super Lig, NBA , World Cup , UEFA , Bundesliga , La Liga , Serie A ",
         "PPV-Unterstützung",
        
         "24/7 Support",
@@ -185,7 +185,7 @@ const data_products = [
         "4K, FHD, HD & SD",
         "+ 30,000 Live TV Channels",
         "Movies & Series (VOD)",
-        "NBA, NHL, NFL, MLB, ESP+",
+        "Premierl Lig , Super Lig, NBA , World Cup , UEFA , Bundesliga , La Liga , Serie A ",
         "PPV Support",
        
         "24/7 Support",
@@ -214,7 +214,7 @@ const data_products = [
         "4K, FHD, HD & SD",
         "+ 30.000 Canlı TV Kanalı",
         "Filmler & Diziler (VOD)",
-        "NBA, NHL, NFL, MLB,UFC, ESP+",
+        "Premierl Lig , Super Lig, NBA , World Cup , UEFA , Bundesliga , La Liga , Serie A ",
         "PPV Desteği",
         
         "7/24 Destek",
@@ -224,7 +224,7 @@ const data_products = [
         "4K, FHD, HD & SD",
         "+ 30.000 Live-TV-Kanäle",
         "Filme & Serien (VOD)",
-        "NBA, NHL, NFL, MLB,UFC, ESP+",
+        "Premierl Lig , Super Lig, NBA , World Cup , UEFA , Bundesliga , La Liga , Serie A ",
         "PPV-Unterstützung",
         
         "24/7 Support",
@@ -234,7 +234,7 @@ const data_products = [
         "4K, FHD, HD & SD",
         "+ 30,000 Live TV Channels",
         "Movies & Series (VOD)",
-        "NBA, NHL, NFL, MLB, ESP+",
+        "Premierl Lig , Super Lig, NBA , World Cup , UEFA , Bundesliga , La Liga , Serie A ",
         "PPV Support",
         
         "24/7 Support",
