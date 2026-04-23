@@ -4,8 +4,8 @@ import "./Item.css";
 const translations = {
   tr: {
     contactButton: {
-      premium: "Hemen Test Talep Edin ",
-      normal: "Hemen Test Talep Edin"
+      premium: "Test Talep Edin ",
+      normal: " Test Talep Edin"
     },
     popular: "Popüler"
   },
