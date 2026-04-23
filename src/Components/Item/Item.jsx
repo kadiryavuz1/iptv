@@ -4,22 +4,22 @@ import "./Item.css";
 const translations = {
   tr: {
     contactButton: {
-      premium: "Hemen İletişime Geç",
-      normal: "İletişime Geç"
+      premium: "Hemen Test Talep Edin ",
+      normal: "Hemen Test Talep Edin"
     },
     popular: "Popüler"
   },
   de: {
     contactButton: {
-      premium: "Jetzt Kontaktieren",
-      normal: "Kontaktieren"
+      premium: "Jetzt Test Anfordern",
+      normal: "Jetzt Test Anfordern"
     },
     popular: "Beliebt"
   },
   en: {
     contactButton: {
-      premium: "Contact Now",
-      normal: "Contact Us"
+      premium: "Request Test Now",
+      normal: "Request Test Now"
     },
     popular: "Popular"
   }
